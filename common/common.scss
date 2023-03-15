@@ -87,3 +87,10 @@ tr {
   padding-bottom: 8px;
   border-bottom: 5px solid var(--secondary-very-high);
 }
+
+.nav-pills > li a.active,
+.nav-pills > li button.active {
+  color: var(--secundairy);
+  background-color: none;
+  border-bottom: 4px solid var(--quaternary);
+}
