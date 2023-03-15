@@ -91,6 +91,6 @@ tr {
 .nav-pills > li a.active,
 .nav-pills > li button.active {
   color: var(--secundairy);
-  background-color: none;
+  background-color: transparent;
   border-bottom: 4px solid var(--quaternary);
 }
