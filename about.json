@@ -1,0 +1,45 @@
+{
+  "name": "OpenWave",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "color_schemes": {
+    "Wave-Light": {
+      "primary": "121212",
+      "secondary": "f2f7fb",
+      "tertiary": "3a5f99",
+      "quaternary": "e45735",
+      "header_background": "0f4792",
+      "header_primary": "ffffff",
+      "highlight": "ffdd4a",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d",
+      "hover": "f1f1f1",
+      "selected": "e7e7e7",
+      "wave-secundair": "374857"
+    },
+    "Wave-Dark": {
+      "primary": "f2f7fb",
+      "secondary": "121212",
+      "tertiary": "3a5f99",
+      "quaternary": "e45735",
+      "header_background": "062a64",
+      "header_primary": "ced7e6",
+      "highlight": "ffdd4a",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d",
+      "hover": "1a3953",
+      "selected": "17344c",
+      "wave-secundair": "64b5f6"
+    }
+  },
+  "modifiers": {},
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

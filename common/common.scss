@@ -1,0 +1,84 @@
+tbody {
+    border-top: 5px solid var(--secondary-very-high);
+}
+
+.custom-search-banner-wrap h1, .custom-search-banner-wrap p {
+    text-align: center;
+    color: var(--primary-50);
+}
+
+.table-heading {
+    border-bottom: 3px solid var(--secondary-very-high);
+}
+
+.latest-topic-list-item {
+    padding: 1em;
+    border-bottom: 1px solid var(--secondary-very-high);
+    display: flex;
+    align-items: center;
+}
+
+.category-header div[class^="category-title-header"] {
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    border: 0px solid #e9e9e9;
+    background-size: unset;
+}
+.categories-list .category h3 .d-icon, .categories-list .category h4 .d-icon {
+    color: var(--primary-high);
+    height: 0.76em;
+    width: 0.76em;
+    vertical-align: baseline;
+    margin-right: 0.1em;
+    display: none;
+}
+
+.topic-list-item, tr {
+    border-bottom: 1px solid var(--secondary-very-high);
+}
+
+.topic-list-item.visited .topic-list-data,
+.latest-topic-list-item.visited,
+.category-topic-link.visited {
+  a.title:not(.badge-notification) {
+    color: var(--primary-high);
+  }
+  span.badge-category {
+    color: var(--primary-high);
+  }
+  a.discourse-tag {
+    color: var(--primary-high);
+  }
+}
+
+.category-boxes-with-topics .category-box {
+    padding: 0;
+    background-color: var(--header_primary);
+    border-radius: 10px;
+    border-left-width: 0px;
+}
+
+.category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    // color: var(--header-primary);
+    border-width: 0px;
+    border-radius: 10px;
+    border-left-width: 0;
+    border-style: solid;
+    border-color: var(--primary-low);
+}
+
+.categories-list .category h3, .categories-list .category h4 {
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    border-bottom: 5px solid var(--secondary-very-high);
+}

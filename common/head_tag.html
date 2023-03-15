@@ -1,0 +1,10 @@
+<script type="text/discourse-plugin" version="0.8.19">
+api.onPageChange(() => {
+    // console.log(window.location.href);
+    if(window.location.href === "https://community.open-wave.nl/c/dokuwiki/17"){
+        event.stopPropagation();
+        var url = "https://doc.open-wave.nl";
+        window.open(url);
+    }
+});
+</script>
