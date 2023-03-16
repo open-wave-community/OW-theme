@@ -95,3 +95,12 @@ tr {
   background-color: transparent;
   border-bottom: 4px solid var(--quaternary);
 }
+
+.list-controls .combo-box .combo-box-header {
+    background: var(--secondary);
+    color: var(--primary);
+    border: 0px solid var(--primary-medium);
+    font-size: var(--font-0);
+    transition: none;
+    height: 100%;
+}
