@@ -31,6 +31,10 @@ tbody {
   background-size: unset;
 }
 
+.category-header div[class^=category-title-header] .category-title-contents {
+    padding: 89px;
+}
+
 .categories-list .category h3 .d-icon,
 .categories-list .category h4 .d-icon {
   color: var(--primary-high);
