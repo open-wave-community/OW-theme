@@ -31,6 +31,10 @@ tbody {
   background-size: unset;
 }
 
+.category-title-header div[class^="category-banner"] {
+  border-left: 6px solid transparant;
+}
+
 .category-header div[class^=category-title-header] .category-title-contents {
   padding: 89px;
   border-left: 0px;
