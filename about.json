@@ -22,7 +22,8 @@
       "love": "fa6c8d",
       "hover": "f1f1f1",
       "selected": "e7e7e7",
-      "wave-secundair": "374857"
+      "wave-secundair": "374857",
+      "wave-tegel": "ffffff"
     },
     "Wave-Dark": {
       "primary": "f2f7fb",
@@ -38,6 +39,7 @@
       "hover": "1a3953",
       "selected": "17344c",
       "wave-secundair": "64b5f6"
+      "wave-tegel": "303030"
     }
   },
   "modifiers": {},
