@@ -10,7 +10,7 @@
   "assets": {},
   "color_schemes": {
     "Wave-Light": {
-      "primary": "121212",
+      "primary": "212121",
       "secondary": "f2f7fb",
       "tertiary": "3a5f99",
       "quaternary": "e45735",
@@ -26,7 +26,7 @@
     },
     "Wave-Dark": {
       "primary": "f2f7fb",
-      "secondary": "121212",
+      "secondary": "212121",
       "tertiary": "3a5f99",
       "quaternary": "e45735",
       "header_background": "062a64",
