@@ -11,7 +11,9 @@
   "color_schemes": {
     "Wave-Light": {
       "primary": "212121",
+      "primary-medium": "374857",
       "secondary": "f2f7fb",
+      "secondary-very-high": "303030",
       "tertiary": "3a5f99",
       "quaternary": "e45735",
       "header_background": "0f4792",
@@ -21,25 +23,23 @@
       "success": "009900",
       "love": "fa6c8d",
       "hover": "f1f1f1",
-      "selected": "e7e7e7",
-      "wave-secundair": "374857",
-      "wave-tegel": "ffffff"
+      "selected": "e7e7e7"
     },
     "Wave-Dark": {
-      "primary": "f2f7fb",
+      "primary": "fafafa",
+      "primary-medium": "64b5f6",
       "secondary": "212121",
-      "tertiary": "3a5f99",
-      "quaternary": "e45735",
+      "secondary-very-high": "303030",
+      "tertiary": "00bcd4",
+      "quaternary": "00bcd4",
       "header_background": "062a64",
       "header_primary": "ced7e6",
-      "highlight": "ffdd4a",
-      "danger": "c80001",
+      "highlight": "fafafa",
+      "danger": "e45735",
       "success": "009900",
       "love": "fa6c8d",
       "hover": "1a3953",
-      "selected": "17344c",
-      "wave-secundair": "64b5f6",
-      "wave-tegel": "303030"
+      "selected": "17344c"
     }
   },
   "modifiers": {},
