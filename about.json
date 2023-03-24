@@ -12,7 +12,6 @@
     "Wave-Light": {
       "primary": "212121",
       "secondary": "f2f7fb",
-      "secondary-very-high": "dee6f3",
       "tertiary": "3a5f99",
       "quaternary": "e45735",
       "header_background": "0f4792",
@@ -27,8 +26,6 @@
     "Wave-Dark": {
       "primary": "fafafa",
       "secondary": "212121",
-      "secondary-high": "303030",
-      "secondary-very-high": "424242",
       "tertiary": "00bcd4",
       "quaternary": "00bcd4",
       "header_background": "062a64",
