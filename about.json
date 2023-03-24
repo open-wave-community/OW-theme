@@ -11,7 +11,7 @@
   "color_schemes": {
     "Wave-Light": {
       "primary": "212121",
-      "primary-medium": "374857",
+      "primary-medium": "64b5f6",
       "secondary": "f2f7fb",
       "secondary-very-high": "dee6f3",
       "tertiary": "3a5f99",
@@ -27,7 +27,7 @@
     },
     "Wave-Dark": {
       "primary": "fafafa",
-      "primary-medium": "64b5f6",
+      "primary-medium": "374857",
       "secondary": "212121",
       "secondary-high": "303030",
       "secondary-very-high": "424242",
