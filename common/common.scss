@@ -12,6 +12,15 @@ a.attachment:before {
   vertical-align: middle;
 }
 
+// curved badge icons 07/04/2023
+
+.badge-wrapper.bullet .badge-category-parent-bg, 
+.badge-wrapper.bullet .badge-category-bg {
+    border-radius: 50%;
+}
+
+// END curved badge icons
+
 .custom-search-banner-wrap h1,
 .custom-search-banner-wrap p {
   text-align: center;
