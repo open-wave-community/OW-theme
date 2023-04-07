@@ -19,6 +19,12 @@ tbody {
   align-items: center;
 }
 
+.latest-topic-list .table-heading, .top-topic-list .table-heading {
+    padding: 12px 5px;
+    color: var(--primary-med-or-secondary-high);
+    padding-left: 1em;
+}
+
 .category-header div[class^='category-title-header'] {
   box-sizing: border-box;
   display: block;
