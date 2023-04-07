@@ -132,8 +132,17 @@ tr {
     height: 100%;
 }
 
+// Custom Material Design elemenents
+
 .small-action {
     border-top: none;
     margin-top: 1em;
     max-width: 808px;
+}
+
+.topic-status-info, .topic-timer-info {
+    border-top: 0px solid var(--primary-low);
+    margin: 0;
+    max-width: calc(var(--topic-body-width) + var(--topic-body-width-padding)*2 + var(--topic-avatar-width));
+    margin-top: 1em;
 }
