@@ -11,12 +11,12 @@
   "color_schemes": {
     "Wave-Light": {
       "primary": "212121",
+      "primary-very-low": "ffffff",
       "secondary": "f2f7fb",
       "tertiary": "3a5f99",
       "quaternary": "e45735",
       "header_background": "0f4792",
       "header_primary": "ffffff",
-      "wave_light": "ffffff",
       "highlight": "ffdd4a",
       "danger": "c80001",
       "success": "009900",
@@ -26,12 +26,12 @@
     },
     "Wave-Dark": {
       "primary": "fafafa",
+      "primary-very-low": "2d2d2d",
       "secondary": "212121",
       "tertiary": "00bcd4",
       "quaternary": "00bcd4",
       "header_background": "062a64",
       "header_primary": "ced7e6",
-      "wave_light": "2d2d2d",
       "highlight": "fafafa",
       "danger": "e45735",
       "success": "009900",
