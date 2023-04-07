@@ -50,6 +50,14 @@ tbody {
   display: none;
 }
 
+.topic-body {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 0 0 0 rgba(0,0,0,.12);
+    background-color: var(--wave-light);
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 15px 20px 0 20px;
+}
+
 .topic-list-item,
 tr {
   border-bottom: 1px solid var(--secondary-very-high);
