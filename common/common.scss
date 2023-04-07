@@ -19,6 +19,12 @@ a.attachment:before {
     border-radius: 50%;
 }
 
+.badge-wrapper.bullet .badge-category-parent-bg+.badge-category-bg {
+    width: 9px;
+    margin-left: -2px;
+    top: 1px;
+}
+
 // END curved badge icons
 
 .custom-search-banner-wrap h1,
