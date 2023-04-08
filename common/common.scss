@@ -14,16 +14,16 @@ a.attachment:before {
 
 // curved badge icons 07/04/2023
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 .badge-wrapper.bullet {
   .badge-category-bg {
-    border-radius: 12px;
+    border-radius: 6px;
   }
 
   .badge-category-parent-bg {
-    border-radius: 12px;
+    border-radius: 6px;
     width: 9px;
     + .badge-category-bg {
       width: 9px;
