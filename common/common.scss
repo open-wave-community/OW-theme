@@ -267,10 +267,8 @@ nav.post-controls .like-button .my-likes {
 .mobile-view {
   .mobile-nav > li > a {
     border-radius: $global-button-border-radius;
-    }
   }
 }
-
 // Editor buttons
 
 .d-editor-button-bar {
@@ -309,4 +307,5 @@ button.cancel,
       var(--topic-avatar-width)
   );
   margin-top: 1em;
+}
 }
