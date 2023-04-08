@@ -275,11 +275,11 @@ nav.post-controls .like-button .my-likes {
   button.btn,
   .select-kit.dropdown-select-box .dropdown-select-box-header {
     border-radius: $global-button-border-radius;
-    }
   }
-  .select-kit.dropdown-select-box .dropdown-select-box-header:hover .d-icon {
-    border-radius: $global-button-border-radius;
-  }
+}
+
+.select-kit.dropdown-select-box .dropdown-select-box-header:hover .d-icon {
+  border-radius: $global-button-border-radius;
 }
 
 #reply-control .reply-to button .d-icon {
@@ -307,5 +307,4 @@ button.cancel,
       var(--topic-avatar-width)
   );
   margin-top: 1em;
-}
 }
