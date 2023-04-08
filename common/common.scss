@@ -190,6 +190,116 @@ tr {
   max-width: 808px;
 }
 
+// BUTTONS
+
+$global-button-border-radius: 10px !default;
+
+// Basic Button
+
+.btn-default {
+  border-radius: $global-button-border-radius;
+}
+
+.btn-primary {
+  border-radius: $global-button-border-radius;
+}
+
+.btn[disabled],
+.btn.disabled {
+  border-radius: $global-button-border-radius !important;
+}
+
+.btn-hover, .btn-active, .btn-large, .btn-small, .btn-text {
+    border-radius: $global-button-border-radius;
+}
+
+// Various edge cases
+
+.select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row,
+.select-kit.dropdown-select-box.toolbar-popup-menu-options
+  .select-kit-row.is-selected,
+.select-kit.dropdown-select-box.toolbar-popup-menu-options
+  .select-kit-row.is-highlighted,
+.select-kit.dropdown-select-box.toolbar-popup-menu-options
+  .select-kit-row.is-selected.is-highlighted {
+  border-radius: $global-button-border-radius;
+}
+
+.topic-map .btn {
+  border-radius: 0;
+}
+
+// Header nav
+// Nav pills
+.nav-pills > li > a {
+  border-radius: $global-button-border-radius;
+}
+
+
+// Post controls
+
+nav.post-controls a,
+nav.post-controls button,
+nav.post-controls button.create {
+  border-radius: $global-button-border-radius;
+}
+
+nav.post-controls .like-button button.like-count + .toggle-like,
+nav.post-controls .like-button,
+nav.post-controls .like-button .like-count,
+nav.post-controls .like-button .my-likes {
+  border-radius: $global-button-border-radius;
+}
+
+// Combo-box header
+
+.list-controls .combo-box .combo-box-header,
+.list-controls .select-kit.dropdown-select-box .dropdown-select-box-header,
+.mobile-view .list-controls .nav-pills > li > a,
+.mobile-view .mobile-nav {
+  border-radius: $global-button-border-radius;
+}
+
+.period-chooser-header {
+  border-radius: 0;
+}
+
+.mobile-view {
+  .mobile-nav > li > a {
+    border-radius: $global-button-border-radius;
+    }
+  }
+}
+
+// Editor buttons
+
+.d-editor-button-bar {
+  button.btn,
+  .select-kit.dropdown-select-box .dropdown-select-box-header {
+    border-radius: $global-button-border-radius;
+    }
+  }
+  .select-kit.dropdown-select-box .dropdown-select-box-header:hover .d-icon {
+    border-radius: $global-button-border-radius;
+  }
+}
+
+#reply-control .reply-to button .d-icon {
+  border-radius: $global-button-border-radius;
+}
+
+// Confirm/deny
+
+button.ok,
+.btn-success {
+  border-radius: $global-button-border-radius;
+}
+
+button.cancel,
+.btn-danger {
+  border-radius: $global-button-border-radius;
+}
+
 .topic-status-info,
 .topic-timer-info {
   border-top: 0px solid var(--primary-low);
