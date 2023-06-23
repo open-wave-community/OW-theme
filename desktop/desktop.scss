@@ -158,3 +158,9 @@
     background-color: var(--primary-very-low);
     padding-top: 16px;
 }
+
+.tag-blog #post_1 .topic-body .contents, .category-nieuws #post_1 .topic-body .contents {
+    border-top: 1px solid var(--primary-low);
+    margin-left: 0px;
+    padding: 15px;
+}
