@@ -153,3 +153,8 @@
     padding-bottom: 0;
     padding-top: 4px;
 }
+
+.tag-blog .topic-post:first-child .topic-body, .category-nieuws .topic-post:first-child .topic-body {
+    background-color: var(--primary-very-low);
+    padding-top: 16px;
+}
