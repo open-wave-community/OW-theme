@@ -131,3 +131,25 @@
 // .topic-list > .topic-list-body > .topic-list-item:nth-child(odd) {
 //   background-color: var(--secondary);
 // }
+
+// 20230623 KG BLOG STYLING TOEVOEGINGEN
+.tag-blog #post_1 .cooked big, .category-nieuws #post_1 .cooked big {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+[data-wrap=columns] {
+    border-right: 1px solid $primary;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.tag-blog .topic-post:first-child, .category-nieuws .topic-post:first-child {
+    font-size: 1.1em;
+    line-height: 1.4;
+    padding-bottom: 0;
+    padding-top: 4px;
+}
