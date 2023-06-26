@@ -165,6 +165,10 @@
     padding: 15px;
 }
 
+.tag-blog #post_1 .topic-body .topic-map, .category-nieuws #post_1 .topic-body .topic-map {
+    margin: 20px -10px 20px -10px;
+}
+
 .tag-blog .topic-avatar, .category-nieuws .topic-avatar {
     background-color: var(--secondary);
 }
