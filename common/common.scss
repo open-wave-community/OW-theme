@@ -200,3 +200,12 @@ tr {
 .custom-footer .third-box {
     border-top: 0px solid rgba(var(--primary-low-rgb), 0.05);
 }
+
+.topic-thumbnails-blog-style-grid .topic-list-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+    border: 0;
+    padding: 25px;
+}
