@@ -1,0 +1,36 @@
+<script type="text/discourse-plugin" version="0.8.14">
+api.onPageChange(url => {
+  if (
+    (url != "/" && url != "/latest" && url != "/top" && url != "/categories") ||
+    url.match(/^\/t\//)
+  ) {
+    $(".hero").addClass("remove");
+  }
+  if (
+    url === "/" ||
+    url === "/latest" ||
+    url === "/top" ||
+    url === "/categories"
+  ) {
+    $(".hero").removeClass("remove");
+  }
+});
+$(document).ready(function() {
+  $("#create-theme").click(function() {
+    require("discourse/lib/url").default.routeTo(
+      jQuery(event.currentTarget).attr("href")
+    );
+    return false;
+  });
+});
+</script>
+
+<script type="text/x-handlebars" data-template-name="/connectors/below-site-header/wave_header">
+<div class="hero">
+  <div class="header wrap">
+  </div>
+  <div class="svg svg_1"></div>
+  <div class="svg svg_2"></div>
+  <div class="svg svg_3"></div>
+</div>
+</script>
