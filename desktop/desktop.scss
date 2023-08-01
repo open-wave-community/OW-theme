@@ -184,7 +184,7 @@
 // Hero Element 20230731
 
 .hero {
-  height: 220px;
+  height: 200px;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
   position: relative;
@@ -203,13 +203,13 @@
     background-position: center;
   }
   .svg_1 {
-    height: 140px;
+    height: 200px;
     transform: translateY(-40px);
     background: url(#{$background_waves_blue});
     opacity: 0.7;
   }
   .svg_2 {
-    height: 180px;
+    height: 240px;
     transform: translateY(-80px);
     background-size: 960px 240px;
     opacity: 0.5;
@@ -217,7 +217,7 @@
     right: -5vw;
   }
   .svg_3 {
-    height: 160px;
+    height: 220px;
     transform: translateY(-120px);
     background-size: 880px 220px;
     opacity: 0.33;
@@ -225,7 +225,7 @@
     right: -20vw;
   }
   .svg_4 {
-    height: 200px;
+    height: 280px;
     transform: translateY(-160px);
     background-size: 1120px 280px;
     opacity: 0.1;
