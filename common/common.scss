@@ -33,6 +33,15 @@ tbody {
   transform: translateY(-70px);
 }
 
+.btn.learn_more {
+  line-height: 1.2;
+
+  .anon & {
+    color: $secondary;
+    background: $tertiary;
+  }
+}
+
 // end hero styles
 
 a.attachment:before {
