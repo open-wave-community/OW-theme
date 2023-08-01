@@ -216,5 +216,8 @@ tr {
     a {
       color: var(--header_primary-low-mid);
     }
+    @include hover {
+      color: var(--primary);
+    }
   }
 }
