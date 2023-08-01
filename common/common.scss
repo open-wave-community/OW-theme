@@ -16,6 +16,15 @@ tbody {
   font-size: $font-up-1;
 }
 
+.header.wrap {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+  width: 75%;
+  max-width: 750px;
+}
+
 // end hero styles
 
 a.attachment:before {
