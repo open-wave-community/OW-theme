@@ -9,6 +9,7 @@
   "maximum_discourse_version": null,
   "assets": {
     "background_waves": "assets/waves.svg",
+    "background_waves_blue": "assets/waves_blue.svg",
     "background_waves_1": "assets/background_waves_1.svg",
     "background_waves_2": "assets/background_waves_2.svg",
     "background_waves_3": "assets/background_waves_3.svg"

@@ -205,7 +205,7 @@
   .svg_1 {
     height: 200px;
     transform: translateY(-40px);
-    fill: var(--secondary);
+    background: url(#{$background_waves_blue});
   }
   .svg_2 {
     height: 240px;
