@@ -209,3 +209,12 @@ tr {
     border: 0;
     padding: 25px;
 }
+
+// sync custom header links with other elements
+.custom-header-links {
+  .headerLink {
+    a {
+      color: var(--header_primary-low-mid);
+    }
+  }
+}
