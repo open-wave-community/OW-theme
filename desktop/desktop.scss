@@ -182,47 +182,97 @@
 }
 
 // Hero Element 20230731
+
 .hero {
   height: 480px;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
   position: relative;
   width: 100%;
+  z-index: 100;
   top: 0;
   left: 0;
   padding-top: 100px;
   background: radial-gradient(circle farthest-corner at right 25%, rgba(102,194,160,1) 16%, rgba(62,122,180,1) 54%, rgba(47,92,135,1) 99%);
-  .svg_1 {
+  .svg {
     position: absolute;
-    height: 280px;
-    width: 100%;
-    transform: translateY(202px);
-    background-size: auto;
-    background-position: 0% 0%;
-    background-color: rgba(0,0,0,0);
-    background: url(#{$background_waves_1});
-    opacity: 0.7;
+    top: 100%;
+    left: -25vw;
+    right: 0px;
+    background: url(#{$background_waves});
+    background-position: center;
+  }
+  .svg_1 {
+    height: 200px;
+    transform: translateY(-40px);
   }
   .svg_2 {
-    position: absolute;
-    height: 300px;
-    width: 100%;
-    transform: translateY(180px);
-    background-size: auto;
-    background-position: 0% 0%;
-    background-color: rgba(0,0,0,0);
-    background: url(#{$background_waves_2});
+    height: 240px;
+    transform: translateY(-80px);
+    background-size: 960px 240px;
     opacity: 0.5;
+    left: -80vw;
+    right: -5vw;
   }
   .svg_3 {
-    position: absolute;
-    height: 431px;
-    width: 100%;
-    transform: translateY(50px);
-    background-size: auto;
-    background-position: 0% 0%;
-    background-color: rgba(0,0,0,0);
-    background: url(#{$background_waves_3});
-    opacity: 0.35;
+    height: 220px;
+    transform: translateY(-120px);
+    background-size: 880px 220px;
+    opacity: 0.33;
+    left: 0vw;
+    right: -20vw;
+  }
+  .svg_4 {
+    height: 280px;
+    transform: translateY(-160px);
+    background-size: 1120px 280px;
+    opacity: 0.1;
+    left: 0vw;
+    right: -40vw;
   }
 }
+// .hero {
+  // height: 480px;
+  // transition: all 0.5s ease-in-out;
+  // overflow: hidden;
+  // position: relative;
+  // width: 100%;
+  // top: 0;
+  // left: 0;
+  // padding-top: 100px;
+  // background: radial-gradient(circle farthest-corner at right 25%, rgba(102,194,160,1) 16%, rgba(62,122,180,1) 54%, rgba(47,92,135,1) 99%);
+  // .svg_1 {
+    // position: absolute;
+    // height: 280px;
+    // width: 100%;
+    // transform: translateY(202px);
+    // background-size: auto;
+    // background-position: 0% 0%;
+    // background-color: rgba(0,0,0,0);
+    // background: url(#{$background_waves_1});
+    // opacity: 0.7;
+  // }
+  // .svg_2 {
+    // position: absolute;
+    // height: 300px;
+    // width: 100%;
+    // transform: translateY(180px);
+    // background-size: auto;
+    // background-position: 0% 0%;
+    // background-color: rgba(0,0,0,0);
+    // background: url(#{$background_waves_2});
+    // opacity: 0.5;
+  // }
+  // .svg_3 {
+    // position: absolute;
+    // height: 431px;
+    // width: 100%;
+    // transform: translateY(50px);
+    // background-size: auto;
+    // background-position: 0% 0%;
+    // background-color: rgba(0,0,0,0);
+    // background: url(#{$background_waves_3});
+    // opacity: 0.35;
+  // }
+// }
+// 
