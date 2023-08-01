@@ -214,10 +214,7 @@ tr {
 .custom-header-links {
   .headerLink {
     a {
-      color: var(--header_primary-low-mid);
-    }
-    @include hover {
-      color: var(--primary);
+      color: var(--header_primary-high);
     }
   }
 }
