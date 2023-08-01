@@ -2,6 +2,22 @@ tbody {
   border-top: 5px solid var(--secondary-very-high);
 }
 
+// Hero styles 20230801
+
+.first {
+  font-size: $font-up-2;
+}
+
+.second {
+  font-size: $font-up-2;
+}
+
+.third {
+  font-size: $font-up-1;
+}
+
+// end hero styles
+
 a.attachment:before {
   display: inline-block;
   margin-right: 4px;
