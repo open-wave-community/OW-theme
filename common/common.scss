@@ -116,10 +116,10 @@ a.attachment:before {
   border-left: 6px solid transparant;
 }
 
-// .category-header div[class^='category-title-header'] .category-title-contents {
-//   padding: 89px;
-//   border-left: 0px;
-// }
+.category-header div[class^='category-title-header'] .category-title-contents {
+  // padding: 89px;
+  border-left: 0px;
+}
 
 .categories-list .category h3 .d-icon,
 .categories-list .category h4 .d-icon {
