@@ -4,16 +4,16 @@ tbody {
 
 // Hero styles 20230801
 
-.first {
+.hero-title {
   font-size: $font-up-2;
   color: var(--secondary)
 }
 
-.second {
+.hero-text {
   font-size: $font-up-2;
 }
 
-.third {
+.hero-button {
   font-size: $font-up-1;
 }
 
@@ -26,7 +26,7 @@ tbody {
   max-width: 750px;
 }
 
-.inner {
+.hero-wrap {
   // background: rgba(255, 255, 255, 0.65);
   // color: #444;
   padding: 1em;
