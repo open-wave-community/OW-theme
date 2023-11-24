@@ -5,8 +5,9 @@ tbody {
 // Hero styles 20230801
 
 .hero-title {
-  font-size: $font-up-2;
-  color: var(--secondary)
+  font-size: $font-up-1;
+  color: var(--secondary);
+  text-align: center
 }
 
 .hero-text {
