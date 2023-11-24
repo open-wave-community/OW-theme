@@ -193,6 +193,12 @@ tr {
   border-color: var(--secondary-very-high);
 }
 
+.category-heading p {
+    margin-top: 0;
+    line-height: var(--line-height-large);
+    font-size: var(--font-up-1);
+}
+
 .categories-list .category h3,
 .categories-list .category h4 {
   margin-bottom: 0;
