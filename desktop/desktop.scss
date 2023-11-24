@@ -2,6 +2,11 @@
   flex-direction: column;
 }
 
+.category-logo.aspect-image {
+    float: left;
+    margin: none;
+}
+
 .category-list {
   thead,
   .topics,
