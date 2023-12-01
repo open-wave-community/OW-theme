@@ -138,6 +138,10 @@ a.attachment:before {
     box-shadow: var(--shadow-header);
 }
 
+.custom-footer .heading {
+  color: var(--tertiary);
+}
+
 // Custom boxes around messages topic-lists 07/04/2023
 
 .latest-topic-list,
