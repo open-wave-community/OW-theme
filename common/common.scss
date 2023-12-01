@@ -132,6 +132,12 @@ a.attachment:before {
   display: none;
 }
 
+.custom-footer {
+    display: block;
+    background: var(--header_background);
+    box-shadow: var(--shadow-header);
+}
+
 // Custom boxes around messages topic-lists 07/04/2023
 
 .latest-topic-list,
