@@ -1,0 +1,52 @@
+<script type="text/discourse-plugin" version="0.8.14">
+api.onPageChange(url => {
+  if (
+    (url != "/" && url != "/latest" && url != "/top" && url != "/categories") ||
+    url.match(/^\/t\//)
+  ) {
+    $(".hero").addClass("remove");
+  }
+  if (
+    url === "/" ||
+    url === "/latest" ||
+    url === "/top" ||
+    url === "/categories"
+  ) {
+    $(".hero").removeClass("remove");
+  }
+});
+$(document).ready(function() {
+  $("#create-theme").click(function() {
+    require("discourse/lib/url").default.routeTo(
+      jQuery(event.currentTarget).attr("href")
+    );
+    return false;
+  });
+});
+</script>
+
+<script type="text/x-handlebars" data-template-name="/connectors/below-site-header/wave_header">
+<div class="hero">
+  <div class="header wrap">
+    <div class="hero-wrap">
+      <div class="hero-title">
+        <h1 class="">Welkom op de Community!</h1>
+      </div>
+    <!-- 
+      <div class="hero-text">
+        <p>Dit is een community voor OpenWave. Zonder een account is een groot deel van het forum niet te zien. Geen gebruiker van OpenWave? Dan kunt u wel naar de <a href="https://community.open-wave.nl/c/nieuws/11">Nieuws pagina</a>.</p>
+      </div>
+      <div class="hero-button">
+        <a href="https://community.open-wave.nl/c/nieuws/11" class="learn_more btn btn-default btn btn-icon-text btn-flat">
+          <span class="d-button-label">Nieuws</span>
+        </a>
+      </div>
+    -->
+    </div>
+  </div>
+  <div class="svg svg_1"></div>
+  <div class="svg svg_2"></div>
+  <div class="svg svg_3"></div>
+  <div class="svg svg_4"></div>
+</div>
+</script>
