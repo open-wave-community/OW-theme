@@ -3,6 +3,13 @@
   margin-left: 150px;
 }
 
+#list-area .show-more .alert {
+    margin: 0;
+    position: relative;
+    top: -8px;
+    padding: 0em 13em 0em .65em;
+}
+
 .categories-and-latest {
   flex-direction: column;
 }
