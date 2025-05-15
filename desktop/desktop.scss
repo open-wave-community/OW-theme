@@ -16,7 +16,7 @@
 
 .category-logo.aspect-image {
     float: left;
-    margin: -112px 0 0 0;
+    margin: -1em 0 0 0;
     z-index: 200;
     position: relative;
 }
@@ -41,8 +41,8 @@
 
     tr {
       display: inline-block;
-      width: 180px;
-      min-height: 180px;
+      width: 200px;
+      min-height: 200px;
       margin: 0.75em;
       //border: 1px solid rgba(0, 0, 0, 0.1) !important;
       border-left-color: transparent;
