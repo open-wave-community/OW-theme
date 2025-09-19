@@ -28,7 +28,8 @@
       "success": "009900",
       "love": "fa6c8d",
       "hover": "f1f1f1",
-      "selected": "e7e7e7"
+      "selected": "e7e7e7",
+      "txt-secondary": "black"
     },
     "Wave-Dark": {
       "primary": "ffffff",
@@ -42,7 +43,8 @@
       "success": "009900",
       "love": "fa6c8d",
       "hover": "1a3953",
-      "selected": "17344c"
+      "selected": "17344c",
+      "txt-secondary": "ffffff"
     }
   },
   "modifiers": {},

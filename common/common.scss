@@ -104,3 +104,14 @@ body {
     }
   }
 }
+
+// Links
+// --------------------------------------------------
+a,
+a:visited,
+a:hover,
+a:active {
+  color: var(--txt-secondary);
+  text-decoration: none;
+  cursor: pointer;
+}
