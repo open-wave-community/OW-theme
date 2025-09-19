@@ -12,13 +12,13 @@
     "background_waves_blue": "assets/waves_blue.svg",
     "background_waves_1": "assets/background_waves_1.svg",
     "background_waves_2": "assets/background_waves_2.svg",
-    "background_waves_3": "assets/background_waves_3.svg"
+    "background_waves_3": "assets/background_waves_3.svg",
+    "icons-sprite": "assets/sprite.svg"
   },
   "color_schemes": {
     "Wave-Light": {
       "primary": "212121",
-      "primary-very-low": "ffffff",
-      "secondary": "f2f7fb",
+      "secondary": "ffffff",
       "tertiary": "3a5f99",
       "quaternary": "e45735",
       "header_background": "f2f7fb",
@@ -32,7 +32,6 @@
     },
     "Wave-Dark": {
       "primary": "fafafa",
-      "primary-very-low": "2d2d2d",
       "secondary": "212121",
       "tertiary": "00bcd4",
       "quaternary": "00bcd4",

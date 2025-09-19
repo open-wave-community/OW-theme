@@ -1,254 +1,78 @@
-.alert {
-  max-width: 890px;
-  margin-left: 150px;
-}
-
-#list-area .show-more .alert {
-    margin: 0;
-    position: relative;
-    top: -8px;
-    padding: 0em 13em 0em .65em;
-}
-
-.categories-and-latest {
-  flex-direction: column;
-}
-
-.category-logo.aspect-image {
-    float: left;
-    margin: -112px 0 0 0;
-    z-index: 200;
-    position: relative;
-}
-
-.category-list {
-  thead,
-  .topics,
-  .category-description {
-    display: none;
-  }
-
-  // Als je subcategories tovoegd krijgen deze een plekje op de tegel, hiermee verberg je dat.
-  .subcategories {
-    display: none;
-  }
-
-  tbody {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    tr {
-      display: inline-block;
-      width: 180px;
-      min-height: 180px;
-      margin: 0.75em;
-      //border: 1px solid rgba(0, 0, 0, 0.1) !important;
-      border-left-color: transparent;
-      border-radius: 10px;
-    }
-
-    .category {
-      padding: 0em 0;
-      border-width: 0;
-      border-radius: 10px;
-      // box-shadow: 0 2px 8px 0 rgba(35,47,53,0.15);
-      transition: 150ms ease-in-out;
-      display: block;
-      width: 100%;
-      height: calc(100%);
-      position: relative;
-      background: var(--primary-very-low);
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-      .category-logo {
-        float: unset;
-        margin: 0 auto;
-      }
-
-      // Dit is om de Category titels te verbergen.
-      .category-name {
-        display: none;
-        //  font-size: 12px;
-        //  color: transparent;
-      }
-
-      h3 {
-        a[href] {
-          display: flex;
-          flex-direction: column;
-          width: 180px;
-          order: 1;
-          .category-text-title {
-            justify-content: center;
-          }
-        }
-        font-size: var(--font-up-2);
-        border-bottom: none;
-      }
-      // 	d.icon {
-      // 	    color: var(--primary-high);
-      //         height: 0.76em;
-      //         width: 0.76em;
-      //         vertical-align: baseline;
-      //         margin-right: 0.1em;
-      //         display: none;
-      // 	}
-      // }
-      // h4 {
-      //     .d-icon {
-      //         color: var(--primary-high);
-      //         height: 0.76em;
-      //         width: 0.76em;
-      //         vertical-align: baseline;
-      //         margin-right: 0.1em;
-      //         display: none;
-      //     }
-      // }
-      &:after {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        content: '';
-        z-index: 1;
-        box-sizing: border-box;
-        pointer-events: none;
-        // hide colors from categories
-        // border-left: 6px solid;
-        opacity: 0.35;
-        border-color: inherit;
-      }
-
-      &:hover {
-        // box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
-        box-shadow: 0px 3px 10px rgba(3, 46, 73, 0.2);
-      }
-
-      .subcategories {
-        .category-name {
-          margin-top: 0;
-        }
-        .badge-notification {
-          display: none;
-        }
-      }
-    }
-  }
-  .topic-list-item,
-  tr {
-    border-bottom: 0px solid var(--primary-low);
-    // border-bottom: none !important;
-  }
-}
-
-// KG: Dit zit in de weg met hover effect
-// .topic-list > .topic-list-bodheroy > .topic-list-item:nth-child(odd) {
-//   background-color: var(--secondary);
+// .alert {
+//   max-width: 890px;
+//   margin-left: 150px;
 // }
 
-// 20230623 KG BLOG STYLING TOEVOEGINGEN
-.tag-blog #post_1 .cooked big, .category-nieuws #post_1 .cooked big {
-    font-size: 2rem;
-    line-height: 2rem;
-    letter-spacing: 1px;
-    display: inline-block;
-    font-family: Montserrat, Arial, sans-serif;
-}
+// #list-area .show-more .alert {
+//   margin: 0;
+//   position: relative;
+//   top: -8px;
+//   padding: 0em 13em 0em .65em;
+// }
 
-[data-wrap=columns] {
-    border-right: 1px solid $primary;
-    padding-right: 10px;
-    margin-right: 10px;
-}
+// .categories-and-latest {
+//   flex-direction: column;
+// }
 
-.tag-blog .topic-post:first-child, .category-nieuws .topic-post:first-child {
-    font-size: 1.1em;
-    line-height: 1.4;
-    padding-bottom: 0;
-    padding-top: 4px;
-}
+// .category-logo.aspect-image {
+//   float: left;
+//   margin: -112px 0 0 0;
+//   z-index: 200;
+//   position: relative;
+// }
 
-.tag-blog .topic-post:first-child .topic-body, .category-nieuws .topic-post:first-child .topic-body {
-    background-color: var(--primary-very-low);
-    padding-top: 16px;
-}
+.category-boxes.with-subcategories {
 
-.tag-blog #post_1 .topic-body .contents, .category-nieuws #post_1 .topic-body .contents {
-    border-top: 1px solid var(--primary-low);
-    margin-left: 0px;
-    padding: 15px;
-}
+  .category {
 
-.tag-blog .small-action, .category-nieuws .small-action {
-    background-color: var(--primary-very-low);
-    margin-bottom: 10px;
-    font-size: .75em;
-    height: 35px;
-    margin-top: 5px;
-}
+    &-box-inner {
+      border-radius: var(--d-border-radius-large);
+      border: 1px solid var(--primary-300);
+      background: var(--d-content-background);
+      box-shadow: 0 0 12px 1px var(--topic-card-shadow);
+      border-style: none solid solid solid;
 
-.tag-blog #post_1 .topic-body .topic-map, .category-nieuws #post_1 .topic-body .topic-map {
-    margin: 20px -10px 20px -10px;
-}
+      &:hover {
+        .discourse-no-touch & {
+          border-color: var(--accent-color);
+          background: var(--d-content-background);
+        }
+      }
 
-.tag-blog .topic-avatar, .category-nieuws .topic-avatar {
-    background-color: var(--secondary);
-}
+      &.selected {
+        box-shadow:
+          0 0 0 2px var(--accent-color),
+          0 0 12px 1px var(--topic-card-shadow);
+      }
+    }
 
-// Hero Element 20230731
+    &-details {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      height: 100%;
+    }
 
-.hero {
-  height: 250px;
-  transition: all 0.5s ease-in-out;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  //padding-top: 100px;
-  background: radial-gradient(circle farthest-corner at right 25%, rgba(102,194,160,1) 16%, rgba(62,122,180,1) 54%, rgba(47,92,135,1) 99%);
-  .svg {
-    position: absolute;
-    top: 100%;
-    left: -25vw;
-    right: 0px;
-    background: url(#{$background_waves_blue});
-    background-position: center;
-  }
-  .svg_1 {
-    height: 200px;
-    transform: translateY(-40px);
-    background: url(#{$background_waves_blue});
-    opacity: 1;
-  }
-  .svg_2 {
-    height: 240px;
-    transform: translateY(-80px);
-    background-size: 960px 240px;
-    opacity: 0.5;
-    left: -80vw;
-    right: -5vw;
-  }
-  .svg_3 {
-    height: 220px;
-    transform: translateY(-120px);
-    background-size: 880px 220px;
-    opacity: 0.33;
-    left: 0vw;
-    right: -20vw;
-  }
-  .svg_4 {
-    height: 280px;
-    transform: translateY(-160px);
-    background-size: 1120px 280px;
-    opacity: 0.1;
-    left: 0vw;
-    right: -40vw;
+    &-box-heading {
+      h3 {
+        text-align: center;
+      }
+    }
+
+    .description {
+      text-align: left;
+      margin: 0;
+      font-size: var(--font-down-1-rem);
+    }
+
+    .subcategories {
+      margin-top: auto;
+      row-gap: 0.5em;
+
+      .subcategory {
+        margin-bottom: 0;
+        font-size: var(--font-down-1);
+      }
+    }
   }
 }
