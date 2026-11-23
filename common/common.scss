@@ -1,6 +1,6 @@
-// body {
-//   background-color: var(--header_background);
-// }
+body {
+  background-color: var(--header_background);
+}
 
 .category-boxes .category-box .logo.aspect-image img,
 .category-boxes-with-topics .category-box .logo.aspect-image img {
@@ -103,15 +103,4 @@
       color: var(--header_primary-high);
     }
   }
-}
-
-// Links
-// --------------------------------------------------
-a,
-a:visited,
-a:hover,
-a:active {
-  color: var(--txt-secondary);
-  text-decoration: none;
-  cursor: pointer;
 }
